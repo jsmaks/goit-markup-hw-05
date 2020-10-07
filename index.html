@@ -71,7 +71,20 @@
       <section class="start-page">
         <div class="start-page-container container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="modal-btn" type="button">Заказать услугу</button>
+          <button class="modal-btn" type="button" data-modal-open>
+            Заказать услугу
+          </button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+                amet saepe numquam similique ad inventore laboriosam error nulla
+                modi voluptas nobis quam, officiis odio necessitatibus natus
+                enim consequuntur iure recusandae.
+              </p>
+              <button class="" data-modal-close>Закрыть</button>
+            </div>
+          </div>
         </div>
       </section>
       <section class="features">
@@ -84,7 +97,7 @@
                   <use href="./images/icons/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="features-title">Внимание к деталям</h3>
+              <h3 class=".title-h-black">Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
@@ -96,7 +109,7 @@
                   <use href="./images/icons/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="features-title">Пунктуальность</h3>
+              <h3 class=".title-h-black">Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
@@ -108,7 +121,7 @@
                   <use href="./images/icons/sprite.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="features-title">Планирование</h3>
+              <h3 class=".title-h-black">Планирование</h3>
               <p>
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
@@ -120,7 +133,7 @@
                   <use href="./images/icons/sprite.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="features-title">Современные технологии</h3>
+              <h3 class=".title-h-black">Современные технологии</h3>
               <p>
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
@@ -141,6 +154,9 @@
                 width="370"
                 height="294"
               />
+              <div class="title-features">
+                <h3 class="title-h-white">Десктопные приложения</h3>
+              </div>
             </li>
             <li class="we-doing-list-item">
               <img
@@ -149,6 +165,9 @@
                 width="370"
                 height="294"
               />
+              <div class="title-features">
+                <h3 class="title-h-white">Мобильные приложения</h3>
+              </div>
             </li>
             <li class="we-doing-list-item">
               <img
@@ -157,6 +176,9 @@
                 width="370"
                 height="294"
               />
+              <div class="title-features">
+                <h3 class="title-h-white">Дизайнерские решения</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -498,6 +520,6 @@
       </div>
     </footer>
     <!-- Ставим перед закрывающим тегом body -->
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
