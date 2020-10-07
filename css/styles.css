@@ -733,7 +733,8 @@ padding-top: 60px;
   background-color: var(--accent-color);
   border-radius: 4px;
 }
-.navigation-list-item {
+
+.navigation-list-link {
   position: relative;
 }
 
