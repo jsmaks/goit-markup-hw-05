@@ -1,44 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/test.css" />
-  </head>
-  <body>
-    <h2>Хихик</h2>
+<label for="size">Размер футболки</label>
+<select id="size" name="size">
+  <option value="xs">Extra Small</option>
+  <option value="s">Small</option>
+  <option value="m">Medium</option>
+  <option value="l">Large</option>
+</select>
 
-    <!-- <ul class="actions">
-      <li>
-        <button class="button">
-          <svg class="button-icon" width="70px" height="70px">
-            <use href="./images/icons/sprite.svg#icon-antenna"></use>
-          </svg>
-        </button>
-      </li>
+<select name="month">
+  <optgroup label="Лето">
+    <option value="s6">Июнь</option>
+    <option value="s7">Июль</option>
+    <option value="s8">Август</option>
+  </optgroup>
 
-      <li>
-        <button class="button">
-          <svg class="button-icon">
-            <use href="./images/icons/sprite.svg#icon-clock"></use>
-          </svg>
-        </button>
-      </li>
-      <li>
-        <button class="button">
-          <svg class="button-icon">
-            <use href="./images/icons/sprite.svg#icon-diagram"></use>
-          </svg>
-        </button> -->
+  <optgroup label="Осень">
+    <option value="s9">Сентябрь</option>
+    <option value="s10">Октябрь</option>
+    <option value="s11">Ноябрь</option>
+  </optgroup>
+</select>
 
-        <div class="testbx">
-          <ul class="bx">
-            <li class="actions"><a class="link action" href="">HelloWorld</a></li>
-            <li class="actions"><a class="link action" href="">Hello</a></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </body>
-</html>
+<textarea name="comment" rows="5" cols="45" placeholder="Оставьте комментарий"></textarea>
