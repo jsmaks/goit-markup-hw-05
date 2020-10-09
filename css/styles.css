@@ -790,6 +790,10 @@ padding-top: 60px;
 .portfolio-item-link:hover .portfolio-description {
   transform: translateY(0);
 }
+
+.portfolio-item-link:focus .portfolio-description {
+  transform: translateY(0);
+}
 .rotate {
   transform: rotate(0) scale(0);
   transition: all 500ms linear;
